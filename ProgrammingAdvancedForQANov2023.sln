@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Strings and Text Processing", "03. Strings and Text Processing", "{2CFCB4FF-FDE5-40BE-A3DF-83579A631444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.01. Reverse Strings", "03.01. Reverse Strings\03.01. Reverse Strings.csproj", "{FCD64E36-3490-43A2-B821-815311D9E79E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.02. Repeat Strings", "03.02. Repeat Strings\03.02. Repeat Strings.csproj", "{143E8233-C209-4BCD-9B2A-A697397EA0C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.03. Substring", "03.03. Substring\03.03. Substring.csproj", "{359C28DA-A576-453A-9D47-4DBAEF566BA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.04. Text Filter", "03.04. Text Filter\03.04. Text Filter.csproj", "{8299B701-3036-45D1-A7F5-6771AD912599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.05. Digits, Letters and Other", "03.05. Digits, Letters and Other\03.05. Digits, Letters and Other.csproj", "{42B19020-2CA5-4FA4-B817-7F2C255DC42D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Regular Expressions", "04. Regular Expressions", "{AC1F7D96-9853-43AC-BBA6-41579C8ACFC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Unit Testing Exercise Strings and Regular Expressions", "05. Unit Testing Exercise Strings and Regular Expressions", "{681061A4-094E-466B-9572-5A2C5267A40B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Dictionaries, Lambda and LINQ", "06. Dictionaries, Lambda and LINQ", "{11603665-4F19-4D5B-AE45-232863E4D507}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Exercises Dictionaries, Lambda and LINQ", "07. Exercises Dictionaries, Lambda and LINQ", "{683FF049-1CA7-453B-B384-CBE6255E4B83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. Unit Testing Exercise Dictionaries, Lambda and LINQ", "08. Unit Testing Exercise Dictionaries, Lambda and LINQ", "{F57602A9-452C-43E1-AAF0-18FD184CE2E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 Objects and Classes", "09 Objects and Classes", "{335309B7-1D14-49FD-BA13-B24B08B843F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Definning Classes", "10. Definning Classes", "{0715C304-DC08-433C-8CA5-1B19DFF81B46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11. Exercise Objects and Classes", "11. Exercise Objects and Classes", "{CDF45AF6-B590-4624-9450-59D40BDF5650}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12. Unit Testing Exercise Objects and Classes", "12. Unit Testing Exercise Objects and Classes", "{AAC983AA-04C4-4F45-8218-ACFEE65D86E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13. Exception Handling", "13. Exception Handling", "{66B86413-DF4A-402D-A560-EC7B2F0AE9B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14. Unit Testing Exercise Exception Handling", "14. Unit Testing Exercise Exception Handling", "{36AC6FC7-7C54-4BA7-8D54-05A55CF74943}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15. OOP Principles Encapsulation, Inheritance", "15. OOP Principles Encapsulation, Inheritance", "{B37EA736-9C54-44A9-95EF-A243114F7873}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16. OOP Principles Abstraction and Polymorphism", "16. OOP Principles Abstraction and Polymorphism", "{BDEADBE7-69CA-4142-A96A-8E6C0068D65D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17. Exercises Implementing an OOP Hierarchy", "17. Exercises Implementing an OOP Hierarchy", "{3D4DBCDE-78FF-40F5-AAE2-747A326FCDF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18. Exam Preparation 1", "18. Exam Preparation 1", "{2C6F1003-A4F4-4F6A-81A5-A9EEC00C8944}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19. Exam Preparation 2", "19. Exam Preparation 2", "{792323C0-897F-436C-A6D7-4C559EF0C0CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20. Exam Preparation 3", "20. Exam Preparation 3", "{EE5A32EF-5B49-46C0-A4B2-5F2C100C1701}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "21. Regular Exam", "21. Regular Exam", "{094DE197-0003-43F4-9BBE-106E603EB248}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCD64E36-3490-43A2-B821-815311D9E79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD64E36-3490-43A2-B821-815311D9E79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD64E36-3490-43A2-B821-815311D9E79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD64E36-3490-43A2-B821-815311D9E79E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143E8233-C209-4BCD-9B2A-A697397EA0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143E8233-C209-4BCD-9B2A-A697397EA0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143E8233-C209-4BCD-9B2A-A697397EA0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143E8233-C209-4BCD-9B2A-A697397EA0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359C28DA-A576-453A-9D47-4DBAEF566BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359C28DA-A576-453A-9D47-4DBAEF566BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359C28DA-A576-453A-9D47-4DBAEF566BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359C28DA-A576-453A-9D47-4DBAEF566BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8299B701-3036-45D1-A7F5-6771AD912599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8299B701-3036-45D1-A7F5-6771AD912599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8299B701-3036-45D1-A7F5-6771AD912599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8299B701-3036-45D1-A7F5-6771AD912599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B19020-2CA5-4FA4-B817-7F2C255DC42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B19020-2CA5-4FA4-B817-7F2C255DC42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B19020-2CA5-4FA4-B817-7F2C255DC42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B19020-2CA5-4FA4-B817-7F2C255DC42D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCD64E36-3490-43A2-B821-815311D9E79E} = {2CFCB4FF-FDE5-40BE-A3DF-83579A631444}
+		{143E8233-C209-4BCD-9B2A-A697397EA0C0} = {2CFCB4FF-FDE5-40BE-A3DF-83579A631444}
+		{359C28DA-A576-453A-9D47-4DBAEF566BA5} = {2CFCB4FF-FDE5-40BE-A3DF-83579A631444}
+		{8299B701-3036-45D1-A7F5-6771AD912599} = {2CFCB4FF-FDE5-40BE-A3DF-83579A631444}
+		{42B19020-2CA5-4FA4-B817-7F2C255DC42D} = {2CFCB4FF-FDE5-40BE-A3DF-83579A631444}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13DAF22F-31CF-4D92-A5F3-1A528550348B}
+	EndGlobalSection
+EndGlobal
