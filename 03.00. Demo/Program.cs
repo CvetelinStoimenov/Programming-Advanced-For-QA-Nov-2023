@@ -5,7 +5,7 @@ using System.Text;
 string str = "Hello, C#";
 
 
-// string to char Arrey
+// string to char Arrey 
 char[] str2 = str.ToCharArray();
 
 Console.WriteLine("String to char Arrey-> " + string.Join('+', str2));
