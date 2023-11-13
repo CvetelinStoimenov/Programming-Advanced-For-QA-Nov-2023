@@ -6,33 +6,63 @@ namespace TestApp.UnitTests;
 
 public class TextFilterTests
 {
-    // TODO: finish the test
     [Test]
     public void Test_Filter_WhenNoBannedWords_ShouldReturnOriginalText()
     {
         // Arrange
+        string[] bannedWords = { "bear" };
+        string input = "The quick brown fox jumps over the lazy dog";
+        string assertResult = "The quick brown fox jumps over the lazy dog";
 
         // Act
+        string result = TextFilter.Filter(bannedWords, input);
 
         // Assert
-        //Assert.That(result, Is.EqualTo(text));
+        Assert.AreEqual(assertResult, result);
     }
 
     [Test]
     public void Test_Filter_WhenBannedWordExists_ShouldReplaceBannedWordWithAsterisks()
     {
-        // TODO: finish the test
+        // Arrange
+        string[] bannedWords = {"quick" };
+        string input = "The quick brown fox jumps over the lazy dog";
+        string assertResult = "The ***** brown fox jumps over the lazy dog";
+
+        // Act
+        string result = TextFilter.Filter(bannedWords, input);
+
+        // Assert
+        Assert.AreEqual(assertResult, result);
     }
 
     [Test]
     public void Test_Filter_WhenBannedWordsAreEmpty_ShouldReturnOriginalText()
     {
-        // TODO: finish the test
+        // Arrange
+        string[] bannedWords = Array.Empty<string>();
+        string input = "The quick brown fox jumps over the lazy dog";
+        string assertResult = "The quick brown fox jumps over the lazy dog";
+
+        // Act
+        string result = TextFilter.Filter(bannedWords, input);
+
+        // Assert
+        Assert.AreEqual(assertResult, result);
     }
 
     [Test]
     public void Test_Filter_WhenBannedWordsContainWhitespace_ShouldReplaceBannedWord()
     {
-        // TODO: finish the test
+        // Arrange
+        string[] bannedWords = { "quick " };
+        string input = "The quick brown fox jumps over the lazy dog";
+        string assertResult = "The ******brown fox jumps over the lazy dog";
+
+        // Act
+        string result = TextFilter.Filter(bannedWords, input);
+
+        // Assert
+        Assert.AreEqual(assertResult, result);
     }
 }

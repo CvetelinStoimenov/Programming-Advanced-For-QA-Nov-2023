@@ -6,7 +6,6 @@ namespace TestApp.UnitTests;
 
 public class MatchUrlsTests
 {
-    // TODO: finish the test
     [Test]
     public void Test_ExtractUrls_EmptyText_ReturnsEmptyList()
     {
@@ -14,37 +13,65 @@ public class MatchUrlsTests
         string text = "";
 
         // Act
+        List<string> result = MatchUrls.ExtractUrls(text);
 
         // Assert
+        Assert.That(result, Is.Empty);
     }
 
-    // TODO: finish the test
     [Test]
     public void Test_ExtractUrls_NoUrlsInText_ReturnsEmptyList()
     {
         // Arrange
+        string text = "wwwHi no Valid. url";
+        List<string> assertResult = new();
 
         // Act
+        List<string> result = MatchUrls.ExtractUrls(text);
 
         // Assert
-        //Assert.That(result, Is.Empty);
+        Assert.That(result, Is.Empty);
     }
 
     [Test]
     public void Test_ExtractUrls_SingleUrlInText_ReturnsSingleUrl()
     {
-        // TODO: finish the test
+        // Arrange
+        string text = "https://regex101.com/";
+        List<string> assertResult = new() { "https://regex101.com" };
+
+        // Act
+        List<string> result = MatchUrls.ExtractUrls(text);
+
+        // Assert
+        Assert.AreEqual(assertResult, result);
     }
 
     [Test]
     public void Test_ExtractUrls_MultipleUrlsInText_ReturnsAllUrls()
     {
-        // TODO: finish the test
+        // Arrange
+        string text = "https://regex101.com/, https://www.abv.bg/ https://softuni.bg/trainings/live/details?trainingLabId=97";
+        List<string> assertResult = new() { "https://regex101.com", "https://www.abv.bg", "https://softuni.bg" };
+
+        // Act
+        List<string> result = MatchUrls.ExtractUrls(text);
+
+        // Assert
+        Assert.AreEqual(assertResult, result);
     }
 
     [Test]
     public void Test_ExtractUrls_UrlsInQuotationMarks_ReturnsUrlsInQuotationMarks()
     {
-        // TODO: finish the test
+        // Arrange
+        string text = "https://softuni.bg/trainings/live/details?trainingLabId=97";
+        List<string> assertResult = new() { "https://softuni.bg" };
+
+        // Act
+        List<string> result = MatchUrls.ExtractUrls(text);
+
+        // Assert
+        Assert.AreEqual(assertResult, result);
     }
 }
