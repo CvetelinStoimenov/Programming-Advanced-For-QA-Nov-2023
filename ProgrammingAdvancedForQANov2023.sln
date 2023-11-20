@@ -20,6 +20,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Unit Testing Exercise Strings and Regular Expressions", "05. Unit Testing Exercise Strings and Regular Expressions", "{681061A4-094E-466B-9572-5A2C5267A40B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Dictionaries, Lambda and LINQ", "06. Dictionaries, Lambda and LINQ", "{11603665-4F19-4D5B-AE45-232863E4D507}"
+	ProjectSection(SolutionItems) = preProject
+		05.TestApp.UnitTests.StringsAndRegularExpressions\TextFilterTests.cs = 05.TestApp.UnitTests.StringsAndRegularExpressions\TextFilterTests.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Exercises Dictionaries, Lambda and LINQ", "07. Exercises Dictionaries, Lambda and LINQ", "{683FF049-1CA7-453B-B384-CBE6255E4B83}"
 EndProject
@@ -79,17 +82,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.03. Word Synonyms", "06.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.04. Word Filter", "06.04. Word Filter\06.04. Word Filter.csproj", "{4E7819A3-8915-4675-99D7-3846A3C06F0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.01. Count Chars in a String", "07.01. Count Chars in a String\07.01. Count Chars in a String.csproj", "{467753D4-1E62-437C-8C34-B19C58FBFD6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.01. Count Chars in a String", "07.01. Count Chars in a String\07.01. Count Chars in a String.csproj", "{467753D4-1E62-437C-8C34-B19C58FBFD6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.02. A Miner Task", "07.02. A Miner Task\07.02. A Miner Task.csproj", "{885F369C-186A-4403-8B56-B6FE605935CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.02. A Miner Task", "07.02. A Miner Task\07.02. A Miner Task.csproj", "{885F369C-186A-4403-8B56-B6FE605935CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.03. Orders", "07.03. Orders\07.03. Orders.csproj", "{2B825546-9D10-4154-A295-18410521B4AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.03. Orders", "07.03. Orders\07.03. Orders.csproj", "{2B825546-9D10-4154-A295-18410521B4AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.04. SoftUni Parking", "07.04. SoftUni Parking\07.04. SoftUni Parking.csproj", "{96D4C801-2327-4C10-A2BE-CE2A964A1C8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.04. SoftUni Parking", "07.04. SoftUni Parking\07.04. SoftUni Parking.csproj", "{96D4C801-2327-4C10-A2BE-CE2A964A1C8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.05. Student Academy", "07.05. Student Academy\07.05. Student Academy.csproj", "{0F41D325-555E-42FE-ADF7-2318CC106784}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.05. Student Academy", "07.05. Student Academy\07.05. Student Academy.csproj", "{0F41D325-555E-42FE-ADF7-2318CC106784}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.06. Company Users", "07.06. Company Users\07.06. Company Users.csproj", "{FEB6F201-6004-4B17-81E6-51A3BF9E96F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.06. Company Users", "07.06. Company Users\07.06. Company Users.csproj", "{FEB6F201-6004-4B17-81E6-51A3BF9E96F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "08.TestAppDictionariesLambdaAndLINQ\TestApp.csproj", "{1D9D03C3-CEA9-4768-A082-E513FDBD8D56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp.Tests", "08.TestAppUnitTestsDictionariesLambdaAndLINQ\TestApp.Tests.csproj", "{C5D77EA7-DEE5-40FC-83DD-10F4B7901D04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test App", "Test App", "{4565CE83-E031-4CD9-96CE-CEE1BE210F81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{E2CCFD76-365C-41A2-807B-188DB033FDFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +200,14 @@ Global
 		{FEB6F201-6004-4B17-81E6-51A3BF9E96F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEB6F201-6004-4B17-81E6-51A3BF9E96F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEB6F201-6004-4B17-81E6-51A3BF9E96F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9D03C3-CEA9-4768-A082-E513FDBD8D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9D03C3-CEA9-4768-A082-E513FDBD8D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9D03C3-CEA9-4768-A082-E513FDBD8D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9D03C3-CEA9-4768-A082-E513FDBD8D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D77EA7-DEE5-40FC-83DD-10F4B7901D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D77EA7-DEE5-40FC-83DD-10F4B7901D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D77EA7-DEE5-40FC-83DD-10F4B7901D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D77EA7-DEE5-40FC-83DD-10F4B7901D04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -219,6 +238,10 @@ Global
 		{96D4C801-2327-4C10-A2BE-CE2A964A1C8D} = {683FF049-1CA7-453B-B384-CBE6255E4B83}
 		{0F41D325-555E-42FE-ADF7-2318CC106784} = {683FF049-1CA7-453B-B384-CBE6255E4B83}
 		{FEB6F201-6004-4B17-81E6-51A3BF9E96F7} = {683FF049-1CA7-453B-B384-CBE6255E4B83}
+		{1D9D03C3-CEA9-4768-A082-E513FDBD8D56} = {4565CE83-E031-4CD9-96CE-CEE1BE210F81}
+		{C5D77EA7-DEE5-40FC-83DD-10F4B7901D04} = {E2CCFD76-365C-41A2-807B-188DB033FDFC}
+		{4565CE83-E031-4CD9-96CE-CEE1BE210F81} = {F57602A9-452C-43E1-AAF0-18FD184CE2E9}
+		{E2CCFD76-365C-41A2-807B-188DB033FDFC} = {F57602A9-452C-43E1-AAF0-18FD184CE2E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13DAF22F-31CF-4D92-A5F3-1A528550348B}

@@ -44,8 +44,7 @@ while (input != "End")
 
     if (!companiees.ContainsKey(company))
     { 
-    
-    companiees.Add(company, new List<string>());
+        companiees.Add(company, new List<string>());
     }
 
     if (!companiees[company].Contains(employeeID))
