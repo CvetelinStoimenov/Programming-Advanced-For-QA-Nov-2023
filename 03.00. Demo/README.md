@@ -1,1 +1,1 @@
-﻿# Demo from the lector.
+﻿# Demo code from the lector.
