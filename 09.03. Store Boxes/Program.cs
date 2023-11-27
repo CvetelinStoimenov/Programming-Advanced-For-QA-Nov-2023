@@ -32,6 +32,7 @@
         {
             string command = Console.ReadLine();
             List<Box> boxes = new List<Box>();
+
             while (command != "end")
             {
                 string[] data = command.Split(" ");
