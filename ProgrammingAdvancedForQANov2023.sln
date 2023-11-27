@@ -118,6 +118,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.03. Car Constructors", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.04. Car Engine And Tires", "10.04. Car Engine And Tires\10.04. Car Engine And Tires.csproj", "{29032436-D76C-4D77-87B0-3137DF8009B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManufacturer", "CarManufacturer\CarManufacturer.csproj", "{A4B64AE4-C744-4081-9D7E-398E52B0CDA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -256,6 +258,10 @@ Global
 		{29032436-D76C-4D77-87B0-3137DF8009B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29032436-D76C-4D77-87B0-3137DF8009B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29032436-D76C-4D77-87B0-3137DF8009B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B64AE4-C744-4081-9D7E-398E52B0CDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B64AE4-C744-4081-9D7E-398E52B0CDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B64AE4-C744-4081-9D7E-398E52B0CDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B64AE4-C744-4081-9D7E-398E52B0CDA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -298,6 +304,7 @@ Global
 		{4FBBDCC3-80A5-470D-A222-9424FD164819} = {0715C304-DC08-433C-8CA5-1B19DFF81B46}
 		{83A31F2C-71CB-4D9F-BB06-99E389C200DB} = {0715C304-DC08-433C-8CA5-1B19DFF81B46}
 		{29032436-D76C-4D77-87B0-3137DF8009B3} = {0715C304-DC08-433C-8CA5-1B19DFF81B46}
+		{A4B64AE4-C744-4081-9D7E-398E52B0CDA4} = {0715C304-DC08-433C-8CA5-1B19DFF81B46}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13DAF22F-31CF-4D92-A5F3-1A528550348B}
