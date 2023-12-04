@@ -15,7 +15,7 @@ public class ReverseConcatenateTests
         string assertResult = "";
 
         // Act
-        string result = ReverseConcatenate.ReverseAndConcatenateStrings(inputString);
+        ц
 
         // Assert
         CollectionAssert.AreEqual(assertResult, result);
