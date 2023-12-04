@@ -120,15 +120,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.04. Car Engine And Tires
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarManufacturer", "CarManufacturer\CarManufacturer.csproj", "{A4B64AE4-C744-4081-9D7E-398E52B0CDA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.01. Students", "11.01. Students\11.01. Students.csproj", "{1D783FDF-11AA-41BA-9FA4-B2D18925830E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.01. Students", "11.01. Students\11.01. Students.csproj", "{1D783FDF-11AA-41BA-9FA4-B2D18925830E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.02. Articles", "11.02. Articles\11.02. Articles.csproj", "{50D543D9-82EE-4F83-A9C8-DDA8F612A878}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.02. Articles", "11.02. Articles\11.02. Articles.csproj", "{50D543D9-82EE-4F83-A9C8-DDA8F612A878}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.03. Teamwork Projects", "11.03. Teamwork Projects\11.03. Teamwork Projects.csproj", "{148E3228-1E43-41AB-8DFF-AF398D3E4A97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.03. Teamwork Projects", "11.03. Teamwork Projects\11.03. Teamwork Projects.csproj", "{148E3228-1E43-41AB-8DFF-AF398D3E4A97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.04. Pokemon Trainer", "11.04. Pokemon Trainer\11.04. Pokemon Trainer.csproj", "{7F69A1CF-705B-4C10-BD6E-5E70F2FC3A30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.04. Pokemon Trainer", "11.04. Pokemon Trainer\11.04. Pokemon Trainer.csproj", "{7F69A1CF-705B-4C10-BD6E-5E70F2FC3A30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Demo", "11. Demo\11. Demo.csproj", "{D6327FC7-3739-4743-B915-A2632F2B592B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11. Demo", "11. Demo\11. Demo.csproj", "{D6327FC7-3739-4743-B915-A2632F2B592B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "12.TestAppObjectsAndClasses\TestApp.csproj", "{3EEEB29D-8296-4BE9-8026-6BC6F0D8C960}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp.UnitTests", "12.TestApp.UnitTestsObjectsAndClasses\TestApp.UnitTests.csproj", "{1E617511-D6A0-427B-AACE-424FDE8E1D93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -292,6 +296,14 @@ Global
 		{D6327FC7-3739-4743-B915-A2632F2B592B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6327FC7-3739-4743-B915-A2632F2B592B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6327FC7-3739-4743-B915-A2632F2B592B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EEEB29D-8296-4BE9-8026-6BC6F0D8C960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EEEB29D-8296-4BE9-8026-6BC6F0D8C960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EEEB29D-8296-4BE9-8026-6BC6F0D8C960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EEEB29D-8296-4BE9-8026-6BC6F0D8C960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E617511-D6A0-427B-AACE-424FDE8E1D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E617511-D6A0-427B-AACE-424FDE8E1D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E617511-D6A0-427B-AACE-424FDE8E1D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E617511-D6A0-427B-AACE-424FDE8E1D93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -340,6 +352,8 @@ Global
 		{148E3228-1E43-41AB-8DFF-AF398D3E4A97} = {CDF45AF6-B590-4624-9450-59D40BDF5650}
 		{7F69A1CF-705B-4C10-BD6E-5E70F2FC3A30} = {CDF45AF6-B590-4624-9450-59D40BDF5650}
 		{D6327FC7-3739-4743-B915-A2632F2B592B} = {CDF45AF6-B590-4624-9450-59D40BDF5650}
+		{3EEEB29D-8296-4BE9-8026-6BC6F0D8C960} = {AAC983AA-04C4-4F45-8218-ACFEE65D86E0}
+		{1E617511-D6A0-427B-AACE-424FDE8E1D93} = {AAC983AA-04C4-4F45-8218-ACFEE65D86E0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13DAF22F-31CF-4D92-A5F3-1A528550348B}
