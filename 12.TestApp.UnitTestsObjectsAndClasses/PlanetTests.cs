@@ -20,7 +20,7 @@ public class PlanetTests
         double result = earth.CalculateGravity(mass);
 
         // Assert
-        Assert.AreEqual(expectedGravity, result);
+        Assert.That(result, Is.EqualTo(expectedGravity));
     }
 
     [Test]
@@ -34,6 +34,6 @@ public class PlanetTests
         string actual = earth.GetPlanetInfo();
 
         // Assert
-        Assert.AreEqual(expectedResult, actual);
+        Assert.That(expectedResult, Is.EqualTo(actual));
     }
 }
