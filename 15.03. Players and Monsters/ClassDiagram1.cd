@@ -22,7 +22,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Players.Knight">
-    <Position X="8.75" Y="0.75" Width="1.5" />
+    <Position X="8.5" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Knight.cs</FileName>
@@ -41,10 +41,6 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BladeKnight.cs</FileName>
     </TypeIdentifier>
-  </Class>
-  <Class Name="System.Object">
-    <Position X="5.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier />
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
