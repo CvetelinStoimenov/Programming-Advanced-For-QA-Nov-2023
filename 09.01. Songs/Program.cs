@@ -65,4 +65,3 @@ namespace _09._01._Songs
         public string Time { get; set; }
         public string TypeList { get; set; }
     }
-}
