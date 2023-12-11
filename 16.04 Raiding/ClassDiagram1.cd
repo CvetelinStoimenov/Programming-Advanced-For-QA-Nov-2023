@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Raiding.Models.BaseHero">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAYAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BaseHero.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.1" />
+  </Class>
+  <Class Name="Raiding.Models.Fighter">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Fighter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Raiding.Models.Healer">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Healer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Raiding.Models.Heroes.Druid">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Heroes\Druid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Raiding.Models.Heroes.Paladin">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Heroes\Paladin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Raiding.Models.Heroes.Rogue">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Heroes\Rogue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Raiding.Models.Heroes.Warrior">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <InheritanceLine Type="Raiding.Models.Fighter" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.925" />
+        <Point X="3.75" Y="2.125" />
+        <Point X="1.25" Y="2.125" />
+        <Point X="1.25" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Heroes\Warrior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Raiding.Contracts.IHero">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAYAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IHero.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
