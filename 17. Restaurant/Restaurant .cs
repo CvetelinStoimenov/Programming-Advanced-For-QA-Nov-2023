@@ -43,7 +43,7 @@ namespace ExerciseOopHierarchy
         {
             Console.WriteLine($"{customer.Name}'s Order History:");
 
-            foreach (Order order in customer.OrderHistrory)
+            foreach (Order order in customer.OrderHistory)
             { 
                 Console.WriteLine($"Order Total: ${order.GetTotal()}");
 
