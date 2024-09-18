@@ -1,5 +1,5 @@
 ﻿# Programming Advanced for QA - November 2023
-## Tasks for exercise in class and homework for the course and my solutions.
+## Tasks for exercise in class, homework for the course, and my solutions.
 
 ## About the Course
 
